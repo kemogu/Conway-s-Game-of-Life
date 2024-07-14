@@ -1,0 +1,3 @@
+/home/kemogu/Masaüstü/CGOL/build/CMakeFiles/CGOL.dir
+/home/kemogu/Masaüstü/CGOL/build/CMakeFiles/edit_cache.dir
+/home/kemogu/Masaüstü/CGOL/build/CMakeFiles/rebuild_cache.dir

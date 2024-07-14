@@ -1,0 +1,1 @@
+/usr/bin/nvcc -forward-unknown-to-host-compiler -Xcompiler=-fPIC -Wno-deprecated-gpu-targets -shared -dlink CMakeFiles/CGOL.dir/src/Game.cu.o CMakeFiles/CGOL.dir/src/Grid.cu.o CMakeFiles/CGOL.dir/src/Point.cu.o CMakeFiles/CGOL.dir/src/main.cu.o -o CMakeFiles/CGOL.dir/cmake_device_link.o  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/lib/x86_64-linux-gnu"

@@ -1,0 +1,1 @@
+/usr/lib/nvidia-cuda-toolkit/bin/g++ CMakeFiles/CGOL.dir/src/Game.cu.o CMakeFiles/CGOL.dir/src/Grid.cu.o CMakeFiles/CGOL.dir/src/Point.cu.o CMakeFiles/CGOL.dir/src/main.cu.o CMakeFiles/CGOL.dir/cmake_device_link.o -o CGOL  -lcudadevrt -lcudart_static -lrt -lpthread -ldl  -L"/usr/lib/x86_64-linux-gnu/stubs" -L"/usr/lib/x86_64-linux-gnu"
