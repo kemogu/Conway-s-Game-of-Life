@@ -77,9 +77,7 @@ void Game::update() {
     cudaDeviceSynchronize();
 
     // currentGrid ve nextGrid pointerlarını değiştir
-    Grid* temp = currentGrid;
-    currentGrid = nextGrid;
-    nextGrid = temp;
+    std::swap(currentGrid, nextGrid);
 
     // Güncellenmiş grid'i ekrana bas
     currentGrid->printGrid();
